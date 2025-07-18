@@ -4,4 +4,4 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
-    pythonVersion: 3.11.9 
+    pythonVersion: 3.11.9  # ✅ Forces compatible Python for TensorFlow 2.15.0
